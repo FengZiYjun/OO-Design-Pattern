@@ -1,6 +1,6 @@
 # Object-oriented design patterns
 
-： design_pattern
+ design_pattern
 
 ---
 
@@ -64,11 +64,11 @@ The products have more than one product groups and each time only one of them wi
 Products from the same group are designed to be used together. 
 
 
-### Builder Pattern
-#### advantages
+### Builder Pattern 
+advantages
 - When constructing a complex object, the order of its components is stable but the they will encounter complicated changes. 
 - The algorithm used to create the object is independent from its components. 
-- the difference between builder pattern and factory pattern: the latter focuses on the construction of a single product while the former one emphesizes assembling various components accroding to the needs. 
+- the difference between builder pattern and factory pattern: the latter focuses on the construction of a single product while the   former one emphesizes assembling various components accroding to the needs. 
 
 ###　Singleton Pattern 
 There is only one instance of the class. 
