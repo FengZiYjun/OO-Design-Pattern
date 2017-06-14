@@ -70,7 +70,7 @@ advantages
 - The algorithm used to create the object is independent from its components. 
 - the difference between builder pattern and factory pattern: the latter focuses on the construction of a single product while the   former one emphesizes assembling various components accroding to the needs. 
 
-###　Singleton Pattern 
+### Singleton Pattern 
 There is only one instance of the class. 
 Even if more than one object of this class is created, they are all actually the same instance.
 
