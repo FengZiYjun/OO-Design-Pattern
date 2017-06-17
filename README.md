@@ -65,7 +65,7 @@ Products from the same group are designed to be used together.
 
 
 ### Builder Pattern 
-advantages
+####advantages
 - When constructing a complex object, the order of its components is stable but the they will encounter complicated changes. 
 - The algorithm used to create the object is independent from its components. 
 - the difference between builder pattern and factory pattern: the latter focuses on the construction of a single product while the   former one emphesizes assembling various components accroding to the needs. 
