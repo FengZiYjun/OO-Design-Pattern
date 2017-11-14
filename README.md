@@ -1,6 +1,5 @@
 # Object-oriented design patterns 
 
-标签（空格分隔）： design_pattern
 
 ---
 
@@ -59,6 +58,8 @@ the inhetitance stracture of the products, such as an abstract TV and a concrete
 a group of products from different product hierarchies that prduced by the same factory
 such as TV, refrigerator and microwaver that have the same brand
 
+![](https://github.com/FengZiYjun/OO-Design-Pattern/blob/master/images/design_pattern_abtract_factory.PNG)
+
 #### when to use 
 The products have more than one product groups and each time only one of them will be used. 
 Products from the same group are designed to be used together. 
@@ -69,6 +70,8 @@ Products from the same group are designed to be used together.
 - When constructing a complex object, **the order of its components is stable but the they will encounter complicated changes.** 
 - The algorithm used to create the object is independent from its components. 
 - the difference between builder pattern and factory pattern: the latter focuses on the construction of a single product while the former one emphesizes assembling various components accroding to the needs. 
+
+![](https://github.com/FengZiYjun/OO-Design-Pattern/blob/master/images/design_pattern_builder.PNG)
 
 ### Singleton Pattern 
 There is **only one instance of the class**. 
@@ -83,6 +86,8 @@ When the client does not want to directly access an object, a proxy is used to h
 
 ### Observer Pattern 
 This pattern is a mechenism of dependency relationship between an object and lots of observers. **When the object changes, all observers will get noticed.** And there is no connection among different observers. 
+
+![](https://github.com/FengZiYjun/OO-Design-Pattern/blob/master/images/design_pattern_obsever.PNG)
 
 ### Strategy Pattern 
 define a series of algorithms and encapsulate all of them to make them replacable to each other
