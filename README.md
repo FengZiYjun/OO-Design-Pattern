@@ -1,6 +1,6 @@
-# Object-oriented design patterns
+# Object-oriented design patterns 
 
- design_pattern
+标签（空格分隔）： design_pattern
 
 ---
 
@@ -44,7 +44,7 @@ Interface-oriented programming:
 
 ### Factory Method Pattern
 #### advantages
-Clinets no necessarily know the exact product names.
+**Clinets no necessarily know the exact product names.**
 Which product will be created is decided by the factory itself. 
 No need to modify the interfaces of abstract factory and abstract products. 
 #### drawback
@@ -64,14 +64,14 @@ The products have more than one product groups and each time only one of them wi
 Products from the same group are designed to be used together. 
 
 
-### Builder Pattern 
-####advantages
-- When constructing a complex object, the order of its components is stable but the they will encounter complicated changes. 
+### Builder Pattern
+#### advantages
+- When constructing a complex object, **the order of its components is stable but the they will encounter complicated changes.** 
 - The algorithm used to create the object is independent from its components. 
-- the difference between builder pattern and factory pattern: the latter focuses on the construction of a single product while the   former one emphesizes assembling various components accroding to the needs. 
+- the difference between builder pattern and factory pattern: the latter focuses on the construction of a single product while the former one emphesizes assembling various components accroding to the needs. 
 
 ### Singleton Pattern 
-There is only one instance of the class. 
+There is **only one instance of the class**. 
 Even if more than one object of this class is created, they are all actually the same instance.
 
 ### Decorator Pattern 
@@ -82,14 +82,11 @@ when it is unrealistic to use inheritage.
 When the client does not want to directly access an object, a proxy is used to help the client to do things. 
 
 ### Observer Pattern 
-This pattern is a mechenism of dependency relationship between an object and lots of observers. When the object changes, all observers will get noticed. And there is no connection among different observers. 
+This pattern is a mechenism of dependency relationship between an object and lots of observers. **When the object changes, all observers will get noticed.** And there is no connection among different observers. 
 
 ### Strategy Pattern 
 define a series of algorithms and encapsulate all of them to make them replacable to each other
 separate the actual algorithm from business logic
-
-### Command Pattern 
-
 
 
 
